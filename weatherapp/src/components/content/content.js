@@ -1,4 +1,4 @@
-import react, {useState} from 'react';
+import React, {useState} from 'react';
 import './content.css';
 import Card from './card/card.js'
 
@@ -61,7 +61,6 @@ export default function Content({ onWeatherData }) {
 
     return ( 
         <div className="content">
-            <h1>Content</h1>
             <form>
                 <input type="text" placeholder="Enter City" onChange={handleInputChange}/>
                 <button onClick={handleSubmit}>Submit</button>

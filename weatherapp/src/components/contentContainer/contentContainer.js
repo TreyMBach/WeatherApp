@@ -12,7 +12,7 @@ export default function ContentContainer() {
         setWeatherData(data);
     }
 
-    const weatherDataName = weatherData[2]
+    const weatherDataName = weatherData
 
     return (
         <div className="contentContainer">
